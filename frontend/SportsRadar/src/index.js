@@ -7,14 +7,14 @@ import './index.css';
 
 let initialState = {
   todos: [{
-  id: 0,
-  completed: false,
-  text: 'Initial Todo for Demo Purposes'
-}],
-user:{
-  username: 'Baba',
-  id: 23
-}
+    id: 0,
+    completed: false,
+    text: 'Initial Todo for Demo Purposes'
+  }],
+  user:{
+    username: 'Baba',
+    id: 23
+  }
 }
 
 
