@@ -12,8 +12,8 @@ class teams extends Component{
 
   selectTeam(team){
     this.setState({currentTeam:team})
-
   }
+
   render(){
     return(
       <div className="teamsContainer">
