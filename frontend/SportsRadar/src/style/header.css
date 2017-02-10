@@ -1,0 +1,23 @@
+.navMenu{
+  display: flex;
+  flex-direction: row;
+  height: 15%;
+  color: white;
+}
+
+.navMenu strong{
+  width: 60%;
+  display: flex;
+  padding-left: 10%;
+  align-items: center;
+  filter: brightness(100%);
+}
+.navMenu strong:hover{
+  cursor:cell;
+}
+.navMenu nav{
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

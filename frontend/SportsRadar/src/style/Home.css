@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 .jumbotron{
   text-align: center;
   width: 100vw;
@@ -13,8 +15,8 @@
 .navMenu{
   display: flex;
   flex-direction: row;
-  height: 10%;
-  color: white
+  height: 15%;
+  color: white;
 }
 
 .navMenu strong{
@@ -22,10 +24,91 @@
   display: flex;
   padding-left: 10%;
   align-items: center;
+  filter: brightness(100%);
 }
 .navMenu nav{
   width: 40%;
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.home-body{
+  display: flex;
+  justify-content: center;
+  background-color: #E2E2E2
+}
+.home-body .team-logo-container{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  margin-top: 8%
+}
+.home-body .team-logo-container  h2{
+  margin: 5% 0 0 0;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.home-body .team-logo-container .break{
+  height: 3px;
+  width: 5%;
+  background-color: black;
+  text-align: center;
+  margin-left: 47%
+}
+
+.home-body .team-logo-container .inner-container{
+  margin-top: 8%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%
+}
+.home-body .team-logo-container .inner-container .links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  margin-bottom: 7%
+}
+.home-body .team-logo-container .links .logos{
+  height: 75%;
+  width: 45%;
+  margin-bottom: 12%;
+  transition: transform 400ms ease-in-out;
+  /*box-shadow: 0px 90px 57px -22px #ccc;*/
+  box-shadow: 0px 90px 57px -22px rgba(0, 0, 0, 0.19);
+}
+
+
+.home-body .team-logo-container .links .logos:hover{
+  height: 75%;
+  width: 45%;
+  animation-name: logos-float, logos;
+  animation-duration: .3s, 1.5s;
+  animation-delay: 0s, .3s;
+  animation-timing-function: ease-out, ease-in-out;
+  animation-iteration-count: 1, infinite;
+}
+@keyframes logos{
+  0% {
+    transform: translateY(-6px);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes logos-float{
+  100% {
+    transform: translateY(-6px);
+  }
 }

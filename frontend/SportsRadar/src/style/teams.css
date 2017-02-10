@@ -1,0 +1,188 @@
+.teamsContainer{
+  /*background-color: #E2E2E2;*/
+  background-color: #44404C
+}
+
+.teams-body{
+  display: flex;
+  flex-direction: row;
+  height: 92vh
+}
+
+/******* TEAM LISTS **********/
+.teams-body .teams-list{
+  width: 25%;
+  list-style: none;
+  overflow: auto;
+}
+.teams-body .teams-list .teamListItem{
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  height: 7%;
+  background-color: white;
+  margin-bottom: 1%
+}
+.teams-body .teams-list .teamListItem .teamListLogo{
+  height: 70%;
+  width: 9%;
+  padding: 0 24px 0 12px;
+}
+
+
+/******* END TEAM LIST *********/
+
+
+/******* TEAM CONTENT ***********/
+.teams-content{
+  width: 72%;
+  margin-left: 1.5%
+}
+
+.teams-content .team-jumbotron{
+  height: 45%;
+}
+
+
+
+.Hawks {
+  background: linear-gradient(#E03A3E, #C3D600);
+  height: 100%
+}
+.Celtics {
+  background: linear-gradient(#008348, #008B9A);
+  height: 100%
+}
+.Nets {
+  background: linear-gradient(#191919, #FFFFFF);
+  height: 100%
+}
+.Hornets {
+  background: linear-gradient(#008CA8, #1D1160);
+  height: 100%
+}
+
+.Bulls {
+  background: linear-gradient(#CE1141, #FFFFFF);
+  height: 100%
+}
+
+.Cavaliers {
+  background: linear-gradient(#860038, #FDBB30);
+  height: 100%
+}
+
+.Mavericks {
+  background: linear-gradient(#007DC5, #C4CED3);
+  height: 100%
+}
+
+.Nuggets {
+  background: linear-gradient(#4FA8FF, #FFB20F);
+  height: 100%
+}
+
+.Pistons {
+  background: linear-gradient(#006BB6, #ED174C);
+  height: 100%
+}
+
+.Warriors {
+  background: linear-gradient(#006BB6, #FDB927);
+  height: 100%
+}
+
+.Rockets {
+  background: linear-gradient(#CE1141, #C4CED3);
+  height: 100%
+}
+
+.Pacers {
+  background: linear-gradient(#FFC633, #00275D);
+  height: 100%
+}
+
+.Clippers {
+  background: linear-gradient(#ED174C, #006BB6);
+  height: 100%
+}
+
+.Lakers {
+  background: linear-gradient(#552582, #FDB927);
+  height: 100%
+}
+
+.Grizzlies {
+  background: linear-gradient(#23375B, #6189B9);
+  height: 100%
+}
+
+.Heat {
+  background: linear-gradient(#98002E, #F9A01B);
+  height: 100%
+}
+
+.Bucks {
+  background: linear-gradient(#00471B, #EEE1C6);
+  height: 100%
+}
+.Pelicans {
+  background: linear-gradient(#002B5C, #B4975A);
+  height: 100%
+}
+.Knicks {
+  background: linear-gradient(#006BB6, #F58426);
+  height: 100%
+}
+.Thunder {
+  background: linear-gradient(#007DC3, #F05133);
+  height: 100%
+}
+.Magic {
+  background: linear-gradient(#007DC5, #C4CED3);
+  height: 100%
+}
+.Sixers {
+  background: linear-gradient(#ED174C, #006BB6);
+  height: 100%
+}
+.Suns {
+  background: linear-gradient(#E56020, #1D1160);
+  height: 100%
+}
+.Timberwolves {
+  background: linear-gradient(#005083, #C4CED3);
+  height: 100%
+}
+.Kings {
+  background: linear-gradient(#724C9F, #8E9090);
+  height: 100%
+}
+.Trailblazers {
+  background: linear-gradient(#F0163A, #B6BFBF);
+  height: 100%
+}
+.Spurs {
+  background: linear-gradient(#B6BFBF, #000000);
+  height: 100%
+}
+
+.Raptors {
+  background: linear-gradient(#CE1141, #C4CED3);
+  height: 100%
+}
+.Jazz {
+  background: linear-gradient(#002B5C, #F9A01B);
+  height: 100%
+}
+.Wizards {
+  background: linear-gradient(#002566, #F5002F);
+  height: 100%
+}
+
+/**/
+.playersContainer{
+  height: 45%;
+  background-color: white;
+  margin-top: 2%
+}
