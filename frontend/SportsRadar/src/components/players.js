@@ -17,7 +17,6 @@ class players extends Component{
       </div>
     )
   }
-  // <img src={baseUrl}  alt={"./assets/defaultPlayer.png"} className="image"/>
   render(){
     const players = this.props.staff.currentTeam.players
     return(
