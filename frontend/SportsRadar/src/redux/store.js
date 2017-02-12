@@ -7,6 +7,6 @@ let finalCreateStore = compose(
   applyMiddleware(thunk,logger())
 )(createStore)
 
-export default function configureStore(initialState = {todos: [], user: {}}){
+export default function configureStore(initialState = {teamProfile:[],standings:{},todos: [], user: {}}){
   return finalCreateStore(rootReducer, initialState)
 }

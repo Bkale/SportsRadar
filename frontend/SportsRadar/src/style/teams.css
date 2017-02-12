@@ -29,20 +29,30 @@
   padding: 0 24px 0 12px;
 }
 
-
 /******* END TEAM LIST *********/
 
 
 /******* TEAM CONTENT ***********/
 .teams-content{
   width: 72%;
-  margin-left: 1.5%
+  margin-left: 1.5%;
+  overflow: auto;
 }
 
 .teams-content .team-jumbotron{
   height: 45%;
 }
 
+.jumbotronLogo{
+  height: 70%;
+  width: 25%;
+  padding: 0 24px 0 12px;
+}
+
+.horizontal{
+  display: flex;
+  flex-direction: row;
+}
 
 
 .Hawks {
@@ -178,11 +188,4 @@
 .Wizards {
   background: linear-gradient(#002566, #F5002F);
   height: 100%
-}
-
-/**/
-.playersContainer{
-  height: 45%;
-  background-color: white;
-  margin-top: 2%
 }

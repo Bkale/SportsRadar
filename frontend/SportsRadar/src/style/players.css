@@ -1,0 +1,36 @@
+.playersContainer{
+  height: auto;
+  background-color: white;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;;
+  flex-wrap: wrap;
+}
+.imageContainer{
+  margin: 3% 0;
+  width: 21%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.imageContainer span{
+  align-self: baseline;
+}
+.imageContainer h3,p{
+  margin: 2%;
+}
+
+.image{
+  width: 80%;
+  height: 140px;
+  border-radius: 60%;
+  /*background-color: #A07178;*/
+  background-size: cover;
+  background-position: center;
+}
+ .imageContainer .imageLogo{
+   height: 14%;
+   width: 14%
+ }

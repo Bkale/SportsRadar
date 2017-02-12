@@ -6,8 +6,9 @@ import Home from '../pages/home'
 import '../style/App.css';
 
 class App extends Component {
-
   render() {
+    console.log(this.props.teamProfile);
+    console.log(this.props.standings);
     return (
       <div className="App">
         <Home />

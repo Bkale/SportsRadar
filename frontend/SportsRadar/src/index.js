@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom';
 import { browserHistory, Router, Route} from 'react-router'
 import App from './container/App';
 import Teams from './pages/teams'
+import teamProfile from './teamProfile.js'
+import standings from './standings.js'
 import configureStore from './redux/store'
 import { Provider }from 'react-redux'
 import './index.css';
 
 let initialState = {
+  teamProfile: teamProfile,
+  standings: standings,
   todos: [{
     id: 0,
     completed: false,
