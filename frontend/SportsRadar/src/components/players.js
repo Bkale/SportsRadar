@@ -3,13 +3,14 @@ import '../style/players.css'
 class players extends Component{
 
   renderPlayers(player,i){
+    // const baseUrl = "https://nba-players.herokuapp.com/players/" + player.last_name
     const baseUrl = "https://nba-players.herokuapp.com/players/" + player.last_name + "/" + player.first_name
-    console.log(this.props.color);
-    const teamColor = this.props.color
+    const primaryColor = this.props.primaryColor
+    const secondaryColor = this.props.secondaryColor
     return(
       <div key={i} className="imageContainer">
         <span>{player.jersey_number}</span>
-        <div style={{backgroundColor:teamColor,backgroundImage:"url("+baseUrl+")"}} className="image"></div>
+        <div style={{backgroundColor:primaryColor,border:"3px solid " + secondaryColor,backgroundImage:"url("+baseUrl+")"}} className="image"></div>
         <h3>{player.full_name}</h3>
         <p>{player.primary_position}</p>
         <p><b>{player.weight}</b>lb | <b>{player.height}</b>cm</p>
